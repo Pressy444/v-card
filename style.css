@@ -1,0 +1,105 @@
+body {
+
+    background-color: yellow;
+}
+
+
+
+
+
+p {
+    color:blue;
+
+}
+
+.prenom {
+
+    background-color:rgb(250, 250, 252);
+    color:black;
+    text-align:center;
+    font-size: 40px;
+    position: absolute;
+    top: 40%; left:30%;
+    width: 50%;
+    border: 5px solid;
+    
+}
+
+
+.dev {
+
+background-color:rgb(10, 10, 10);
+position:absolute;
+top: 70%; left: 50%; 
+box-shadow: 5px 5px 5px 5px rgb(104, 247, 204);
+
+.fs {
+    color: white;
+    fond-size: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+}
+
+.adresse {
+
+    background-color:rgb(7, 7, 7);
+    position: relative;
+    top: 20px; right: 50px;
+    text-align: center;
+    color:aliceblue;
+}
+
+
+
+
+.photo {
+    float: right;
+    padding: 20px;
+    border-radius:50%;
+    background-color:rgb(10, 10, 10); 
+    
+}
+
+.image-button {
+    display: inline-block;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.image-button img {
+    display: block;
+    max-width: 40px;
+    height: auto;
+    transition: transform 0.2s ease-in-out;
+}
+
+.image-button:hover img {
+    transform: scale(1.1); 
+}
+
+
+header {
+   
+    background-color:rgb(7, 7, 7);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+
+
+.need {
+
+    color:white;
+    font-size: 20px;
+    text-align: center;
+}
+
+.contact {
+
+    background-color: rgb(44, 245, 185);
+    text-align: left;
+    padding: 30px;
+    font-size: 20px;
+}
